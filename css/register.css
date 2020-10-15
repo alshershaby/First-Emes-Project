@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+ 
+ body{
+    background-color:#272727;
+    min-height: 1000px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+::placeholder{
+    color:#252525;
+    font-weight: 300
+}
+
+/* start signin  */
+
+.sign-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    height:550px;
+    width:70%;
+    background: rgb(48, 48, 48);
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: space-around;
+    transition:.6s;
+}
+.signup h2{
+    text-align: center;
+    padding: 2%;
+    margin-bottom: -4%;
+    font-size: 8vh;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color:#f4742a;
+    width: 100%;
+}
+.signup input{
+    margin:  0 4%;
+    width: 42%;
+    height: 5%;
+    text-align: center;
+    padding: 2%;
+    border:#f4742a solid 2px;
+    border-radius: 5px;
+    background: #fff;
+    align-items: center;
+}
+.signup .birthday{
+    margin:  0;
+    width: 12%;
+    height: 5%;
+    text-align: center;
+    padding: 2% 1%;
+    justify-content: space-around;
+    border:#f4742a solid 2px;
+    border-radius: 5px;
+    background: #fff;
+    align-items: center;
+}
+#mail{
+    position: relative;
+    right:1.5%;
+    align-items: center;
+}
+#year{
+    margin: 0 3% 0 0;
+    align-items: center;
+}
+
+.signup button,.have-account{
+    text-align: center;
+    margin:  0 4%;
+    width: 42%;
+    height: 5%;
+    line-height: 5%;
+    padding: 2% ;
+    background: none;
+    color:#f4742a;
+    border:#f4742a solid 2px;
+    -O-border:#f4742a solid 2px;
+    border-radius: 5px;
+    font-size: 3vh;
+    align-items: center;
+}
+
+button a{
+    color:#f4742a
+}
+
+button a:hover{
+    color:#f4742a
+}
+
+/* end signup  */
+
+
+/* start login  */
+
+.login{
+    height:350px;
+    width:70%;
+    background: rgb(48, 48, 48);
+    flex-wrap:wrap; 
+    justify-content: space-around;
+}
+
+.login h2{
+    text-align: center;
+    padding: 1%;
+    margin:3% auto 1%;
+    font-size: 7vh;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color:#f4742a;
+    width: 100%;
+    transition:.6s;
+}
+
+.login input{
+    display: block;
+    margin: 2% auto;
+    width: 45%;
+    height: 5%;
+    text-align: center;
+    padding: 2% 1%;
+    justify-content: space-around;
+    border:#f4742a solid 3px;
+    border-radius: 5px;
+    background: #fff;
+    transition: .8s;
+}
+.written{
+    width:100%;
+    margin: 1%;
+    display: block;
+    text-align: center;
+}
+.forgot{
+    color:#fff;
+    text-align: left;
+    margin-right:5%; 
+    text-transform: capitalize;
+    transition: .6s;
+}
+
+.forgot:hover{
+    color:#f4742a
+}
+
+.login label{
+    color:#fff;
+    text-align: right;
+    margin-right:5%; 
+    position: relative;
+    text-transform: capitalize;
+}
+.login .checkbox{
+    width: 15px;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 110%;
+    bottom: -5%
+}
+
+.login .log-btn{
+    display: block;
+    margin: 1% auto 2%;
+    width: 45%;
+    height: 8%;
+    line-height: 90%;
+    text-align: center;
+    padding: 1%;
+    border:#fff solid 3px;
+    border-radius: 5px;
+    background: #f4742a;
+    color:#fff;
+    transition: .8s;
+    font-size: 4vh;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.go-for-sign-up{
+    display: block;
+    margin: 2% auto;
+    width: 45%;
+    height: 8%;
+    line-height: 90%;
+    text-align: center;
+    padding: 1%;
+    border:#fff solid 3px;
+    border-radius: 5px;
+    background: #ffffff;
+    color:rgb(0, 0, 0);
+    transition: .8s;
+    font-size: 4vh;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.go-for-sign-up:hover{
+    background-color: #f4742a;
+    color:#fff
+}
+
+
+.login a:hover {
+    text-decoration: none;
+}
+
+.facebook-log{
+    display: block;
+    margin: 2% auto;
+    width: 45%;
+    height: 8%;
+    line-height: 90%;
+    text-align: center;
+    padding: 1%;
+    font-size: 4vh;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bolder;
+    text-transform: capitalize;   
+    text-align: center;
+    border:#fff solid 3px;
+    border-radius: 5px;
+    background: #4267b2;
+    color:#fff;
+    transition: .8s;
+}    
+
+.google-log{
+    display: block;
+    margin: 2% auto;
+    width: 45%;
+    height: 8%;
+    line-height: 90%;
+    text-align: center;
+    padding: 1%;
+    font-size: 4vh;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bolder;
+    text-transform: capitalize;   
+    text-align: center;
+    border:#fff solid 3px;
+    border-radius: 5px;
+    background: #4285f4;
+    color:#fff;
+    transition: .8s;
+}  
+
+.facebook-log:hover,
+.google-log:hover{    
+    color:#ffffff
+}
+
+.google-log i,
+.facebook-log i{
+    color:rgb(253, 253, 253);
+    float: left;
+    line-height: 90%;
+    font-size: 4vh;
+    /* background-color: #fff; */
+}
+.google-log i{
+    color:#ffffff;
+}
+/* end login  */
+
+/* end signin */
+
+

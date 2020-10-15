@@ -1,0 +1,3121 @@
+/* start responsive for home page page  */
+@media(max-width:2574px){
+.navbar{
+     margin: 0 auto;
+     padding: 1% 0;
+     height: 200px;
+}
+
+.navbar-collapse{
+    padding-left:20%;
+}
+
+
+.navbar .logo img{  
+    width: 150px;
+    height: auto;
+    transition:.5s;
+    height: auto;
+}
+
+
+.navbar-brand img{  
+    height: auto;
+    width:150px;
+    transition:.5s;
+    margin: 2%;
+}
+
+.navbar-nav li a,.navbar ul li ul li a,#logIn,#signUp{
+    font-size: 3vh;
+    padding: 15px 30px;
+}
+
+.search a i{
+    font-size: 30px;
+}
+
+.servicses-list,.signup-min,.profile-list{
+    top:100%;
+    left:0% ;
+    text-align: left;
+}
+
+.search .search-field{
+    position: absolute;
+    width:50%;
+    right:37%;
+    top:30px;
+    height: 35px;
+    border:solid 2px #f4742a;
+    border-radius: 10px;
+    z-index: 5;
+    padding-left:1% ;
+    display: none;
+    background-color: #fff;
+}
+
+
+
+.search .search-submit{
+    position: absolute;
+    right:37%;
+    top:30px;
+    height: 35px;
+    border:solid 2px #f4742a;
+    border-radius: 10px;
+    z-index: 5;
+    background: #f4742a;
+    color:#fff;
+    display: none;
+    font-family: 'Big Shoulders Display', cursive;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+
+.servicses-list .knowledge-list,
+.servicses-list .management-list,
+.servicses-list .mep-list,
+.servicses-list .architecture-list{
+    position: absolute;
+    left:100%;
+    top: 0;
+    transition: .6s;
+    color:#fff;
+    display: none;
+}
+
+.servicses-list .structure-list{
+    position: absolute;
+    left:100%;
+    top:80%;
+    transition: .6s;
+    color:#fff;
+    display: none;
+}
+
+.sld1 span{
+    top:35%;
+}
+
+.sld1 h1{
+    top:40%;
+}
+.sld2 h1{
+    top:40%;
+}
+.sld2 span{
+top:35%;
+}
+
+.sld3 h1{
+    top:25%;
+}
+.sld3 span{
+top:25%;
+margin: 2% auto;
+}
+
+
+.sld4 h1{
+    top:25%;
+}
+.sld4 span{
+top:25%;
+margin: 3% auto;
+}
+
+
+.sld5 h1{
+    top:25%;
+}
+.sld5 span{
+top:25%;
+margin: 2% auto;
+}
+
+
+.sld6 h1{
+    top:25%;
+}
+.sld6 span{
+top:25%;
+margin: 2% auto;
+}
+
+
+.sld7 h1,.sld8 h1{
+    top:28%;
+}
+.sld7 span,.sld8 span{
+top:25%;
+}
+
+.questions{
+    width: 100%;
+    padding:20px 0;
+}
+.questions h3{
+    font-size: 10vh;
+    width:100%;
+    text-align: center;
+
+}
+
+
+.questions .container{
+    margin: 0 ;
+    padding: 0;
+}
+
+.questions .container{
+    width:90%;
+    margin: 1% auto;
+}
+
+.questions .container .row{
+ width:90%;
+ height: 600px;
+ margin: 0 auto;
+ padding: 0;
+}
+
+
+.col-xs-12,.define.card,.content-area,.side-one .card,.side-two .card{
+    height:  600px;
+}
+.card h4{
+    font-size:5vh;
+}
+
+.card p{
+    font-size:3vh;
+}
+.card .fas{
+    font-size: 140px;
+}
+
+.container-2{
+    width:90%;
+    margin: 0 auto;
+}
+.container-2 h2{
+    font-size: 6vh;
+}
+
+.nav-pills .nav-item a{
+    font-size: 3vh;
+}
+
+.main-links li a{
+    font-size: 3.5vh;
+}
+
+.sub-links,.texted-area-js{
+    height: 1200px;
+}
+
+
+.sub-links h5,.texted-area-js h5{
+    font-size: 3.5vh;
+}
+.sub-links ul li a,.texted-area-js ul li {
+    font-size: 3vh;
+}
+
+.lander{
+    margin: 5% auto;
+}
+
+footer h2{
+    font-size: 6vh;
+}
+
+.contacts ul li a{
+    font-size: 3.5vh;
+}
+
+.contacts .tab-content div ul li{
+    font-size: 2.5vh;
+}
+
+.contacts .tab-content div ul li i {
+    font-size: 2.5vh;
+}
+
+.comment input,
+.comment textarea,
+.comment button{
+    font-size: 2.5vh;
+}
+
+.quick-services h3{
+    font-size: 4vh;
+    margin-bottom:5% ;
+}
+.quick-services ul li a{
+    font-size: 2vh;
+}
+
+.quick-links ul {
+    border-left: #fff solid 2px;
+}
+
+
+.quick-links ul:hover{
+    border-left: #f4742a solid 2px;
+}
+
+
+.social ul li{
+    display: inline-block;
+    margin:  15% 2% 0;
+}
+
+.social ul li i {
+    font-size: 100px;
+    transition: .6s;
+    color:#fff
+}
+
+
+.rights{
+    font-size: 40px;
+    line-height: 800%;
+}
+
+
+.signature i{
+    font-size: 80px;
+    transition: .6s;
+    color:#fff;
+    margin-top:10%; 
+}
+
+.signature p{
+    font-size: 35px;
+}
+
+
+/* start signup responsive  */
+
+
+
+.login{
+    margin:3% auto;
+    height:1300px;
+    width:70%;
+    background: rgb(48, 48, 48);
+    flex-wrap:wrap; 
+    justify-content: space-around;
+    font-size: 2vh;
+}
+
+.login h2{
+    margin: 2% auto;
+}
+
+.login input::placeholder{
+    font-size: 2vh;
+}
+
+.login input{
+    display: block;
+    margin: 2% auto;
+    width: 45%;
+    text-align: center;
+    padding:2%;
+    justify-content: space-around;
+    border:#f4742a solid 3px;
+    border-radius: 5px;
+    background: #fff;
+    transition: .8s;
+    height: 3%;
+}
+.go-for-sign-up{
+    width:45%
+}
+
+
+.written,.forgot{
+    font-size: 2vh;
+}
+
+.login .checkbox{
+    width: 25px;
+}
+
+
+.signup{
+    padding-top:1%;
+    height:1100px;
+    width:70%;
+    background: rgb(48, 48, 48);
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: space-around;
+    transition:.6s;
+}
+
+.signup input::placeholder{
+    font-size: 2vh;
+}
+
+
+/* start responsive for knowledge page  */
+
+    .title-image-knowledge .bounceInRight{
+        left:10%;
+        top:30%;
+    }
+
+    .define h3{
+        font-size: 7vh;
+    }
+
+.define-container-know{
+    margin: 5% 5% 0;
+    padding: 2%;
+    font-size: 3vh;
+    line-height: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+
+.download-files{
+    padding: 1%;
+}
+.download-files li {
+    margin: 1%;
+}
+.download-files li a{
+    font-size: 2.5vh;
+    padding: 5% 0;
+   
+}
+   .download-files li a button{
+        font-size: 2.5vh;
+        padding: 1% 3%;
+    }
+
+    .know-line{
+        margin: 5% auto;
+    }
+    .know-footer h2{
+        font-size: 10vh;
+        margin: 2% auto 3%;
+    }
+
+
+
+    /* start resposive for e-learning page  */
+
+
+        .title-image-e-learning .bounceInRight{
+            left:10%;
+            top:25%;
+        }
+
+        .course .overflow{
+            padding: 10% 0 1%;
+         }
+
+         .define-container-e-learn{
+            width:90%;
+            margin: 5% auto;
+            padding: 2%;
+            font-size: 3vh;
+            line-height: inherit;
+         }        
+
+        .learn-footer h2{
+            font-size: 10vh;
+            margin: 2% auto 3%;
+        }
+
+
+        /* start services responsive  */
+        .services-container {
+            width: 80%;
+            margin: 15% auto;
+            padding: 5% 2% 7%;
+            background: #1d1d1d;
+            border:2px solid #f4742a;
+        }
+        .services-container h3{
+            font-size: 7vh;
+            width:300px;
+            margin: 2% auto;
+        }
+
+        .additional-requirements select option{
+            font-size: 2vh;
+        }
+
+
+
+ /* start about responsive  */
+        
+
+.title-image-about .bounceInRight{
+    top:25%;
+    font-size: 22vh;
+    left:15%;
+}
+.about-container{
+    height: auto;
+}
+
+.about-container h1{
+    font-size: 7vh;
+}
+.about-container p{
+    font-size: 4vh;
+}
+
+.about-line{
+    margin: 10% auto 5%;
+}
+
+
+/* start careers responsive  */
+
+.career h2{
+    font-size: 7vh;
+    margin: 5% auto;
+}
+
+/* start underconstruction responsive  */
+
+    .construction-tail{
+        position: absolute;
+        bottom: 0;
+    }
+
+    #contents .text{
+        width:50%
+    }
+
+         
+}
+
+
+@media(max-width:2560px){
+    
+.navbar-collapse{
+    padding-left:10%;
+}
+
+
+.navbar-brand img{  
+    height: auto;
+    width:150px;
+    transition:.5s;
+    margin: 2%;
+}
+.sld2 h1{
+    top:40%;
+}
+.sld2 span{
+top:35%;
+font-size: 14vh;
+}
+
+.sld3 h1{
+    top:25%;
+}
+.sld3 span{
+top:25%;
+margin: 3% auto;
+}
+
+
+.sld5 h1{
+    top:25%;
+}
+.sld5 span{
+top:25%;
+margin: 2% auto;
+font-size: 15vh;
+}
+
+
+
+.sld7 h1,.sld8 h1{
+    top:28%;
+font-size: 12vh;
+}
+.sld7 span,.sld8 span{
+top:25%;
+}
+
+
+}
+
+
+@media(max-width:2380px){
+
+    .navbar-collapse{
+        padding-left: 15%;
+    }
+
+
+.navbar-nav li a,.navbar ul li ul li a,#logIn,#signUp{
+    font-size: 43px;
+    padding: 15px 30px;
+}
+
+.sld2 span{
+top:35%;
+font-size: 15vh;
+}
+
+
+.sld5 span{
+top:30%;
+font-size: 15vh;
+}
+
+.sld7 h1,.sld8 h1{
+top:35%;
+font-size: 12vh;
+}
+
+
+.main-links li a{
+    font-size: 3vh;
+}
+
+.login{
+    height: 1100px;
+}
+
+
+}
+
+
+
+
+@media(max-width:2135px){
+    
+    .navbar-collapse{
+        padding-left: 7%;
+    }
+
+/* 
+    
+.login{
+    margin:3% auto;
+    height:550px;
+    width:70%;
+    background: rgb(48, 48, 48);
+    flex-wrap:wrap; 
+    justify-content: space-around;
+} */
+.login input{
+    padding: 3% 1%;
+}
+
+.login input{
+    font-size: 40px;
+}
+
+.login input,
+.login .log-btn,
+.go-for-sign-up,
+.facebook-log,
+.google-log{
+    width:65%
+}
+
+
+.written,.forgot{
+    font-size: 2vh;
+}
+
+.login .checkbox{
+    width: 25px;
+}
+
+
+
+.signup input,.have-account{
+    margin:  0 4%;
+    width: 42%;
+    height: 7%;
+    padding: 2%;
+}
+
+.have-account{
+    font-size: 2.5vh;
+    line-height: 5%;
+    height: 5%;
+    padding: 2%;
+}
+
+.signup button{
+    margin:  0 4%;
+    width: 42%;
+    height: 5%;
+    line-height: 5%;
+    padding: 2% ;
+    font-size: 2.5vh;
+}
+
+
+.about-line{
+    margin: 5% auto 5%;
+}
+
+
+/* start career responsive  */
+
+.career{
+    margin: 10% auto;
+}
+
+}
+
+
+@media(max-width:2015px){
+    
+    .navbar-collapse{
+        padding-left: 5%;
+    }
+
+  
+.login input{
+    padding: 3% 1%;
+    font-size: 40px;
+    width:65%;
+}
+
+
+.login input,
+.login .log-btn,
+.go-for-sign-up,
+.facebook-log,
+.google-log{
+    width:65%
+}
+
+
+.written,.forgot{
+    font-size: 2vh;
+}
+
+.login .checkbox{
+    width: 25px;
+}
+
+
+.signup input,.have-account,.signup button{
+    margin:  0 4%;
+    width: 42%;
+    height: 7%;
+    padding: 2%;
+    line-height: 7%;
+}
+
+
+    .services-container{
+        margin: 15% auto 10%;
+    }
+}
+
+@media(max-width:1850px){
+
+.navbar-collapse{
+    padding-left: 12%;
+}
+.navbar{
+    margin: 0 auto;
+    padding: 1% 0;
+    height: 200px;
+}
+    
+.navbar-nav li a,.navbar ul li ul li a,#logIn,#signUp{
+   font-size: 2.5vh;
+   padding: 15px 30px;
+}
+.navbar-nav li a{
+    font-size: 35px;
+}
+.sld5 h1{
+    font-size: 10vh;
+}
+
+.sld6 span{
+    font-size: 14vh;
+}
+
+.main-links li a {
+    font-size: 2.8vh;
+}
+
+
+.card .fas{
+    font-size: 180px;
+    margin: 30% auto;
+}
+
+
+.sub-links,.texted-area-js{
+    height: 1200px;
+    width:47%;
+}
+
+
+.sub-links h5,.texted-area-js h5{
+    font-size: 3vh;
+}
+.sub-links ul li a,.texted-area-js ul li {
+    font-size: 2.8vh;
+}
+
+
+.social ul li{
+    display: inline-block;
+    margin:  15% 2% 0;
+}
+
+.social ul li i {
+    font-size: 50px;
+}
+
+
+.rights{
+    font-size: 25px;
+    line-height: 800%;
+}
+
+
+.signature i{
+    font-size: 45px;
+    margin-top:10%; 
+}
+
+.signature p{
+    font-size: 30px;
+}
+
+    
+.login{
+    height:900px;
+    width:70%;
+    background: rgb(48, 48, 48);
+    flex-wrap:wrap; 
+    justify-content: space-around;
+}
+
+.go-for-sign-up,.facebook-log,.google-log{
+    width: 45%;
+}
+
+.login .log-btn{
+    width:45%
+}
+.login input{
+    width: 45%;
+    padding: 2.5%;
+    font-size: 40px;
+}
+
+
+.signup{
+    padding-top:1%;
+    margin:5% auto;
+    height:900px;
+    width:70%;
+}
+
+.signup button,.have-account{
+    margin:  0 4%;
+    width: 42%;
+    height: 7%;
+    line-height: 7%;
+    padding: 2% ;
+    font-size: 2.5vh;
+}
+
+}
+
+@media (max-width:1570px){
+    .navbar{
+        height: 140px;
+    }
+    .navbar-collapse{
+        padding-left: 5%;
+    }
+
+    .navbar-nav li a{
+        font-size: 32px;
+    }
+
+
+    
+.search .search-field{
+    width: 50%;
+    right:33%;
+    top:35px;
+    height: 43px;
+    border:solid 2px #f4742a;
+    border-radius: 10px;
+    z-index: 5;
+    padding-left:2% ;
+    display: none;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.search-submit{
+    position: absolute;
+    right:33%;
+    top:35px;
+    height: 43px;
+    border:solid 2px #f4742a;
+    border-radius: 10px;
+    z-index: 5;
+    background: #f4742a;
+    color:#fff;
+    display: none;
+    font-family: 'Big Shoulders Display', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+    .sld2 span{
+        font-size: 12vh;
+    }
+
+    .sld2 h1{
+        font-size: 7vh;
+    }
+    .sld5 span{
+        font-size: 13vh;
+    }
+
+    .card p{
+        font-size:35px ;   
+        font-weight: bolder;
+        margin-top:60px;
+    }
+    
+    .sub-links,.texted-area-js{
+        height: 750px;
+    }
+    .sub-links ul li a,.texted-area-js li{
+        font-size: 29px;
+    }
+
+    .main-links li a {
+    font-size: 3vh;
+}
+
+
+.social ul li{
+    margin:  15% 2% 0;
+}
+
+.social ul li i {
+    font-size: 90px;
+}
+
+.rights{
+    font-size: 30px;
+    line-height: 800%;
+}
+
+
+.navbar .logo img{  
+    height: auto;
+    width:200px;
+    transition:.5s;
+}
+
+
+.social ul li i {
+    font-size: 55px;
+}
+
+
+
+.rights{
+    font-size: 25px;
+    line-height: 800%;
+}
+
+
+.signature i{
+    font-size: 45px;
+    margin-top:10%; 
+}
+
+.signature p{
+    font-size: 25px;
+}
+
+
+    .login{
+        height:800px
+    }
+}
+
+@media (max-width:1500px){
+    .navbar-collapse{
+        padding-left: 0;
+    }
+
+
+    .login{
+    height:650px;
+    width:70%;
+    background: rgb(48, 48, 48);
+    flex-wrap:wrap; 
+    justify-content: space-around;
+    }
+    
+    .login input{
+        padding: 2%;
+        font-size: 20px;
+    }
+
+    .login .log-btn,.go-for-sign-up,.facebook-log,
+    .google-log,
+    .google-log i,
+    .facebook-log i
+    {
+        font-size: 3vh;
+    }
+    
+    
+.login .checkbox{
+    width: 15px;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 110%;
+    bottom: -5%
+}
+    
+    .signup{
+        padding-top:1%;
+        margin:5% auto;
+        height:700px;
+        width:70%;
+    }
+    
+}
+
+@media (max-width:1440px) {
+
+    .navbar{
+        height: 90px;
+        padding: 10px 0px;
+        box-sizing: border-box;
+    }
+    
+    .navbar-collapse{
+        padding-left: 15%;
+    }
+    
+    .navbar-nav li a{
+        font-size: 23px;
+        letter-spacing: 1px;
+        font-weight: 900;
+    }
+
+    .profile i{
+        transition: .6s;
+        border:#fff solid 3px;
+        padding: 20%;
+        border-radius: 100%;
+    }
+    .profile:hover i{
+        border:#f4742a solid 3px
+    }
+    
+    
+
+    .search .search-field{
+        position: absolute;
+        width: 50%;
+        right:37%;
+        top:30px;
+        height: 35px;
+        border:solid 2px #f4742a;
+        border-radius: 10px;
+        z-index: 5;
+        padding-left:2% ;
+        display: none;
+        font-size: inherit;
+    }
+    
+
+    .search-submit{
+        position: absolute;
+        right:37%;
+        top:30px;
+        height: 35px;
+        border:solid 2px #f4742a;
+        border-radius: 10px;
+        z-index: 5;
+        background: #f4742a;
+        color:#fff;
+        display: none;
+        font-family: 'Big Shoulders Display', cursive;
+        letter-spacing: 2px;
+        font-size: 18px;
+        font-weight: bolder;
+        font-size: inherit;
+    }
+    .search a{
+        padding: 1px;
+        transition:1s;
+    }
+    
+    .search a i{
+        font-size: 16px;
+        color:#f4742a; 
+    }
+    .search:hover {
+        color:#f4742a
+    }
+    
+    nav.black{
+        background: #1d1d1d;
+        z-index: 100;
+    }
+    
+    .navbar .logo img{  
+        width: 150px;
+        margin: 2%;
+        height: auto;
+        transition:.5s;
+    }
+    
+    
+    .servicses-list,.signup-min,.profile-list{
+        top:100%;
+        left:0% ;
+        text-align: left;
+    }
+    
+    .navbar-nav li a,#logIn,#signUp{
+        display: block;
+        line-height: 60px;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        padding: 5px 20px;
+    }
+    
+    .navbar-nav li ul li a,#logIn,#signUp{
+        padding: 1px 10px;
+        margin-top:1%; 
+        box-shadow: 0 2px 5px rgb(0, 0, 0, .5);
+        white-space: nowrap;
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    
+    .active,nav ul li a:hover{
+        color:#f4742a;
+        text-decoration: none;
+    }
+    
+    
+    
+    .servicses-list .knowledge-list,
+    .servicses-list .management-list,
+    .servicses-list .mep-list,
+    .servicses-list .architecture-list{
+        position: absolute;
+        left:100%;
+        top: 0;
+        transition: .6s;
+        color:#fff;
+        display: none;
+        }
+    
+    .servicses-list .structure-list{
+        position: absolute;
+        left:100%;
+        top:80%;
+        transition: .6s;
+        color:#fff;
+        display: none;
+    }
+    
+
+    .navbar ul li ul li a,#logIn,#signUp{
+        line-height: 50px;
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    
+    
+    /* end nav bar  */
+    
+    
+.sld1 span{
+  top:27%
+}
+.sld1 h1{
+    top:28%;
+    margin: 0;
+    font-size: 9.7vh;
+}
+
+
+.sld2 h1{
+    top:30%;
+    margin: 0;
+    animation-delay: 1.5s;
+    font-size: 10vh;
+}
+.sld2 span{
+    top:28%;
+    margin: 0;
+    font-size: 16vh;
+    line-height: 150px;
+}
+
+.sld3 h1{
+    top:25%;
+    margin: 0;
+    font-size: 11vh;
+}
+.sld3 span{
+    top:25%;
+    margin: 0;
+    font-size: 22vh;
+    color:#f4742a;
+    line-height: 150px;
+    animation-delay: 1.3s;
+}
+
+.sld4 span{
+     text-align: center;
+    position: relative;
+    top:25%;
+    margin: 0;
+    font-size: 22vh;
+    line-height: 150px;
+}
+
+.rotateInDownRight{
+    top:25%;
+    margin: 0;
+    font-size: 11vh;
+    animation-delay: .1s;
+}
+
+.rotateInUpLeft{
+    top:25%;
+    margin: 0;
+    font-size: 11vh;
+}
+
+.sld5 h1{
+    top:25%;
+    margin: 0;
+    font-size: 15vh;
+}
+.sld5 span{
+    top:25%;
+    margin: 0;
+    font-size: 18vh;
+    line-height: 150px;
+}
+
+.sld6 h1{
+    top:25%;
+    margin: 0;
+    font-size: 15vh;
+}
+.sld6 span{
+    top:25%;
+    margin: 0;
+    font-size: 18vh;
+    line-height: 150px;
+    animation-delay: 1.3s;
+}
+
+.sld7 h1{
+    top:25%;
+    margin: 0;
+    font-size: 15vh;
+    animation-delay: .5s;
+}
+.sld7 span{
+    top:25%;
+    margin: 0;
+    font-size: 18vh;
+    line-height: 150px;
+    animation-delay: 1.3s;
+}
+
+.sld8 h1{
+    top:25%;
+    margin: 0;
+    font-size: 15vh;
+    animation-delay: .5s;
+}
+.sld8 span{
+    top:25%;
+    margin: 0;
+    font-size: 18vh;
+    line-height: 150px;
+    animation-delay: 1.3s;
+}
+
+/* end slider  */
+
+
+/* start questions section  */
+.questions{
+    padding: 0;
+    margin: 8% auto ;
+}
+.section-header{
+    margin:5%;
+    font-size: 65px;
+    letter-spacing: 5px;
+}
+.card{
+    height: 350px;
+ }
+.card h4{
+    font-size: 60px;
+    margin-top: 5%;
+ }
+.card p{
+    font-size:20px ;   
+    margin-top:40px;
+}
+
+.image-area{
+    width:350px;
+    -ms-width:350px;
+    height: 350px;
+}
+
+.card .fas{
+ font-size: 100px;
+ margin-top: 15%;
+}
+.side-one{
+    position: relative;
+    transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom:30px; 
+    
+}
+.side-two{
+    position: absolute;
+    top:0;
+    left:0;
+    background:#FFF;
+    transform:rotateY(-180deg);
+}
+.side-one .card,
+.side-two .card{
+    height: 350px;
+}
+
+
+.questions .container .row{
+    width:90%;
+    height: 350px;
+    margin: 0 auto;
+    padding: 0;
+   }
+/* end question section  */
+
+.lander{
+    margin: 5% auto;
+    width:50%;
+    border: 2px solid #fff;
+}
+
+
+.container-2 h2{
+    margin:5%;
+    font-size: 65px;
+    letter-spacing: 5px;
+ }
+ 
+ .nav-link {
+    font-size: 25px;
+    letter-spacing: 5px;
+     } 
+ 
+ .main-links{
+     margin: 3% 0 ;
+     width:100%;
+ }
+ 
+ .main-links li {
+     margin: 1% auto;
+ }
+ .main-links li a{
+     font-size: 30px;
+     letter-spacing: 1px;
+ }
+ .main-links li{
+     height: 30px;
+ }
+ 
+  
+ /* start sub links  */
+ .sub-links{
+     width: 45%;
+     padding: 3% 3% 3% 1%;
+     height: 400px; 
+     margin: 1% auto 5%
+ }
+ .container-2 h5{
+     margin-bottom: 3%;
+     letter-spacing: 1px;
+ }
+
+ 
+.sub-links ul li a {
+    color:rgb(32, 32, 32);
+    font-size: 17px;
+    text-transform: capitalize;
+}
+/* end sub links  */
+
+
+footer h2 {
+    font-size: 9vh;
+}
+.comment{
+    padding-top:2% ;
+}
+/*start texted area  */
+.texted-area-js{
+    width: 45%;
+    height: 400px; 
+    margin: 1% auto 5%;
+    padding: 3%;
+    font-size: 17px;
+}
+
+/* end texted area  */
+
+
+
+
+/* start tail  */
+
+.social ul li{
+    display: inline-block;
+    margin:  10% 2% 0;
+}
+
+.social ul li i {
+    font-size: 40px;
+}
+
+
+.rights{
+    font-size: 15px;
+    line-height: 800%;
+}
+
+
+.signature i{
+    font-size: 40px;
+    transition: .6s;
+    margin-top:7%; 
+}
+
+.signature p{
+    font-size: 15px;
+}
+
+/* end tail  */
+
+
+/* end footer  */
+
+.login{
+    height:550px;
+    width:70%;
+    background: rgba(48, 48, 48, 0.671);
+    flex-wrap:wrap; 
+    justify-content: space-around;
+}
+
+.login input{
+    padding: 2%;
+    font-size: 20px;
+    width: 45%;
+}
+.login .checkbox{
+    width: 15px;
+}
+.login .log-btn {
+    font-size: 2.9vh;
+    line-height: 0;
+    padding: 2%;
+    width:45%
+}
+
+#go-for-sign-up{
+    font-size: 2.9vh;
+    line-height: 0;
+    padding: 2%;
+    width:45%
+}
+
+.facebook-log,.google-log{
+    font-size: 2.8vh;
+    line-height: 0;
+    padding: 2%;
+    width:45%
+}
+
+
+.facebook-log i,
+.google-log i{
+    font-size: 2.8vh;
+    line-height: 10%;
+}
+
+.signup{
+    padding-top:1%;
+    margin:5% auto;
+    height:500px;
+    width:70%;
+}
+
+
+
+/* start responsive course  */
+.services-container {
+    width: 80%;
+    margin: 10% auto;
+    padding: 5% 2% 7%;
+    background: #1d1d1d;
+    border:2px solid #f4742a;
+}
+
+
+/* start responsive knowledge  */
+
+.title-image-knowledge .bounceInRight{
+    top:30%
+}
+
+/* start underconstruction responsive  */
+#contents .text{
+    width:60%
+}
+#header{
+    padding: 5% 0;
+}
+#header .wrap {
+    margin: 0 auto 1%;
+}
+
+
+
+
+}
+
+@media(max-width:1350px){
+    .navbar-collapse{
+        padding-left: 15%;
+    }
+
+    .login{
+        margin:3% auto;
+        height:550px;
+        width:70%;
+        background: rgb(48, 48, 48);
+        flex-wrap:wrap; 
+        justify-content: space-around;
+    }
+    
+    .login input{
+        padding: 2%;
+        font-size: 20px;
+    }
+    
+
+.login .checkbox{
+    width: 15px;
+}
+
+#contents .text{
+    width:70%
+}
+
+
+}
+
+@media(max-width:1255px){
+   
+    .navbar-collapse{
+        padding-left: 10%;
+    }
+
+    .sld5 span,.sld7 h1,.sld8 h1{
+        font-size: 14vh;
+    }
+    
+ .main-links li a{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.login input{
+    padding: 2%;
+    font-size: 20px;
+    width:60%;
+}
+
+
+
+.login .checkbox{
+    width: 12px;
+}
+
+.login .log-btn,
+.go-for-sign-up,
+.facebook-log,
+.google-log{
+    font-size: 3vh;
+    width:60%;
+}
+
+
+}
+
+@media(max-width:1200px){
+
+    .navbar-collapse{
+        padding-left: 5%;
+    }
+    
+    .sld5 span,.sld7 h1,.sld8 h1{
+        font-size: 14vh;
+    }
+    
+ .main-links li a{
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+}
+
+@media (max-width:1130px) {
+    .navbar-nav li a{
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 900;
+    }
+    
+
+    
+.login,.signup{
+    margin-top: 8%;
+    height: 550px;
+}
+
+
+.login .log-btn,
+#go-for-sign-up,
+.facebook-log,
+.google-log{
+    font-size: 3.5vh;
+}
+
+}
+
+
+@media (max-width:1024px) {
+
+
+.navbar-collapse{
+        padding-left: 10%;
+    }
+
+
+    .navbar-toggler{
+        color:#f4742a;
+        float: right;
+        font-size: 20px;
+    
+    }
+
+    .navbar-nav li a{
+        font-size: 20px;
+        letter-spacing: 0;
+        font-weight: 900;
+}
+
+           
+.navbar .logo img{  
+    height: auto;
+    width:120px;
+    transition:.5s;
+}
+        .logo{
+            margin: 1%;
+        }
+ 
+        .profile ul{
+            position: absolute;
+            left: 0;
+            top: 550%;
+        }
+        
+        nav ul li ul li ul {
+            z-index: 15;
+            position: absolute;
+            left:90%;
+        }
+          
+     
+       .profile i{
+           padding: 1% 1.2%;
+       } 
+    
+       .sld2 span{
+        top:28%;
+        font-size: 17vh;
+       }
+       .sld2 h1{
+           top:30%;
+       }
+       .sld5 span{
+           font-size: 17vh;
+       }
+       .sld7 h1,.sld8 h1{
+           font-size: 13vh;
+       }
+
+
+       /* .login{
+        padding-top: 2%;
+        height:550px;
+       }
+
+       .login h2{
+        margin:1% auto 1%;
+       }
+       .login input{
+           height: 8%;
+       }
+
+       .facebook-log,
+       .google-log{
+           line-height: 30%;
+       }
+ 
+.facebook-log i,
+.google-log i{
+    font-size: 3vh;
+    line-height: 30%;
+} */
+       .signup{
+           margin: 8% auto;
+       }
+
+       .signup input,.signup .birthday,.signup button{
+           height: 8%;
+       }
+
+       .social .fab{
+           margin-top:10px;
+       }
+
+       /* start knowledge responsive  */
+
+       .title-image-knowledge .bounceInRight {
+        font-size: 150px;
+        width:90%;
+        top:25%;
+        left:5%;
+    }
+
+    .download-files li a{
+        font-size: 2.5vh;
+        padding: 0;
+    }
+    
+       /* start e-learning responsive  */
+
+
+    .title-image-e-learning .bounceInRight{
+        font-size: 150px;
+        width:90%;
+        top:25%;
+        left:5%;
+    }
+    .courses .course{
+        width: 40%;
+        height: 340px;
+    }
+
+
+    /* start courses responsive  */
+    .services-container{
+        margin: 15% auto;
+        padding:10% 0;
+    }
+
+    .res-search{
+       padding:5%;
+    }
+
+
+
+    /* start careers responsive  */
+
+    .career{
+        margin: 15% auto;
+        padding: 10% 0
+    }
+
+    .typer{
+        width: 80%;
+    }
+
+    
+    /* start profile responsive  */
+
+    .profile-info h2{
+        font-size: 40px;
+        width:100%
+    }
+
+    .profile-info h2::before,
+    .profile-info h2::after{
+        width:5%
+    }
+
+    .profile-pic i{
+        font-size: 30px;
+        padding: 4% 5%;
+    }
+
+
+
+
+}
+
+@media (max-width:1010px){
+    
+.navbar-collapse{
+    padding-left: 5%;
+}
+
+}
+
+@media (max-width:950px){
+
+    .navbar{
+        height: 15%;
+    }
+
+    .navbar-brand{
+        position: absolute;
+        left: 2%;
+    }
+
+    .navbar-toggler{
+        position: fixed;
+        right: 7%;
+        z-index: 5000;
+    }
+
+    .navbar-collapse{
+        position: absolute;
+        right:0;
+        padding-right:10%;
+        padding-top:2%;
+        top:0;
+        background-color: #1d1d1d;
+        width:100%;
+    }
+
+
+
+
+.search .search-field{
+    position: absolute;
+    width: 50%;
+    right:37%;
+    top:18px;
+    height: 30px;
+    border:solid 2px #f4742a;
+    border-radius: 10px;
+    z-index: 5;
+    padding-left:1% ;
+    display: none;
+    font-size: 14px;
+}
+
+.search .search-submit{
+    position: absolute;
+    right:37%;
+    top:18px;
+    height: 30px;
+    border:solid 2px #f4742a;
+    border-radius: 10px;
+    z-index: 5;
+    background: #f4742a;
+    color:#fff;
+    font-size: 14px;
+    display: none;
+    font-family: 'Big Shoulders Display', cursive;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.search a i{
+    font-size: 14px;
+    color:#f4742a; 
+}
+
+    .navbar-nav li{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .navbar-nav li a{
+       float: left;
+       margin: 0;
+       font-size: 15px;
+       padding: 2px;
+    }
+
+    .navbar-nav li ul{
+        width: auto;
+        border-left: #f4742a solid 2px;
+    }
+
+    .navbar-nav li ul li a{
+       float: left;
+       margin: 0;
+       font-size: .5vh;
+       padding: 1px;
+       border-left: #f4742a solid 2px;
+       font-size: .5rem;
+    }
+
+    .navbar-nav li ul li ul li a {
+        border-left: #000 solid 2px;  
+        font-size: 1rem;   
+    }
+
+    
+
+
+    .sld2 span{
+        top:28%;
+        font-size: 15vh;
+       }
+       .sld2 h1{
+           top:30%;
+       }
+       .sld5 span{
+           font-size: 15vh;
+       }
+       .sld7 h1,.sld8 h1{
+           font-size: 10vh;
+       }
+
+    .questions{
+        height: auto;
+        padding: 0;
+        margin: 5% auto;
+        width:100%;
+    }
+.questions .container .row{
+    width:100%;}
+
+.col-xs-12,
+.define.card,
+.content-area,
+.side-one .card,
+.side-two .card{
+    width:100%  ;
+}
+
+
+.main-links li a{
+    font-size: 16px;
+    letter-spacing: 1px;
+    }
+.main-links li{
+    display: block;
+  }
+
+  .sub-links ul li a,.texted-area-js ul li{
+      font-size: 13px;
+  }
+
+
+  /* start .career responsive  */
+.career table{
+    margin-left:5% ;
+}
+
+/* underconstruction responsive  */
+
+.disapear{
+    display: none;
+}
+
+
+.login{
+    height: 470px;
+}
+
+}
+
+@media (max-width:768px){
+ 
+   
+
+.container-2{
+    display: block;
+    margin: 5% auto;
+}
+   
+       
+    .quick-links ul {
+        margin: 5% auto;
+        width: 43%;
+        padding: 1%;
+    }
+
+    
+
+    .tail{
+        display: block;
+        min-height:200px ;
+    }
+
+    .tail .social{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tail .social ul{
+        padding: 0;
+    }
+
+    
+
+    .tail .rights{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tail .signature{
+        width: 100%;
+        margin: 0 auto 10%;
+    }
+
+/* start underconstruction responsive  */
+#header .wrap h1{
+    margin-top: 10%;
+}
+.construction-tail{
+   position: absolute;
+   bottom: 0;
+}
+
+
+
+.construction-tail .construction-social{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10%;
+}
+.construction-tail .construction-social ul li {
+    margin: 1%;
+}
+
+.construction-tail .construction-rights{
+   display: none;
+}
+.construction-tail .construction-signature{
+  display: none;
+}
+
+    
+ 
+    #logIn,#signUp{
+        top:235%;
+        padding-left:15% ;
+        height: 60px;
+    }
+    
+    .profile ul{
+        position: absolute;
+        left: 0;
+        top: 450%;
+    }
+
+    .card-body p{
+        font-size: 19px;
+    }
+    
+    .main-links {
+        display: block;
+    }
+    .main-links li {
+        margin: 3%;
+    }
+
+    
+ 
+    /* .login input,.login .log-btn,#go-for-sign-up,.facebook-log,.facebook-log i,.google-log,.google-log i{
+      width: 70%;
+    } */
+
+    .login{
+        padding-top:3% ;
+    }
+
+    .login input{
+        padding: 3%;
+        line-height: 3%;
+    }
+
+    .facebook-log,
+    .google-log {
+        line-height: 100%;
+        font-size: 3vh;
+    }    
+
+    .google-log i,
+    .facebook-log i{
+    color:rgb(253, 253, 253);
+    line-height: 100%;
+    font-size: 3vh;
+    float: left;
+    width: 20px;
+    }
+
+    .signup input,.signup .birthday,.signup button{
+    height: 7%;
+    }
+
+    .signup{
+    height: 450px;
+    }
+
+
+   /* start knowledge responsive  */
+
+    .title-image-knowledge .bounceInRight {
+    font-size: 100px;
+    top:25%;
+    }
+
+   /* start e-learning responsive  */
+
+   .title-image-e-learning .bounceInRight{
+    font-size: 100px;
+    top:25%;
+}
+
+.courses h3{
+    margin: 10% auto;
+}
+
+/* start courses responsive  */
+  .res-search{
+    padding:2% 4% 3%;
+ }
+
+ #attachments li input{
+    width: 85%;
+}
+
+.required-courses,
+#attachments,
+.past-link{
+     padding-left:5%;
+}
+
+.services-container p{
+
+    font-size: 15px;
+}
+
+ /* start about responsive  */
+    
+ .title-image-about .bounceInRight{
+    font-size: 80px;
+    left:20%;
+    top:40%
+}
+
+.about-container {
+   height: 28%;
+}
+.about-container h1{
+    font-size: 30px;
+    margin: 8% auto 5%;
+}
+.about-container p{
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.res-line{
+    margin: 5% auto;
+}
+
+/* start careers responsive  */
+.career{
+    padding-top: 5%;
+}
+
+.career h2{
+    margin: 3% auto ;
+}
+.career .typer{
+    width: 80%;
+}
+
+.rate tr td {
+    width: 20%
+}
+
+div .dash ::placeholder{
+    font-size: 10px;
+}
+
+/* start profile responsive  */
+
+.profile-info{
+    margin: 15% auto 2%;
+}
+.profile-info h2{
+    font-size: 30px;
+    width:100%
+}
+
+.profile-pic{
+    margin: 3% auto 6% ;
+}
+
+
+.profile-info .btn-default{
+    font-size: 10px;
+    padding: 1% 2%;
+    margin: 8%;
+}
+
+  /* start servein responsive  */
+
+  .contries{
+  font-size: 13px;
+}
+
+
+.tab-content .container li{
+    font-size: 12px;
+}
+
+.no-scroll{
+    display: flex;
+    justify-content: space-around;
+}
+
+.no-scroll div{
+    width: 25%;
+}
+.tail .rights{
+    padding-top:10%;
+    font-size: 12px;
+}
+
+/* start service form  */
+
+.res-add-req{
+    padding-left: 5%;
+}
+
+
+}
+
+@media (max-width:766px){
+    .questions{
+        min-height: 900px;
+        padding: 0;
+        margin: 10% auto;
+        width:100%;
+    }
+
+ .row .col-xs-12{
+    margin: 5% auto;
+}
+
+.col-xs-12,
+.define,
+.define.card,
+.content-area,
+.side-one .card,
+.side-two .card{
+    width:100%  ;
+    height: 350px;
+}
+
+.lander{
+    width:50%;
+    border: 2px solid #fff;
+}
+
+
+/* start knowledge resposnive */
+
+.download-files{
+     margin-bottom:100px ;
+}
+
+.know-line{
+    margin: 70% auto 5%;
+}
+
+/* start e-learning responsive  */
+.learn-line{
+    margin: 100% auto 5%;
+}
+
+}
+@media (max-width:425px){
+    body{
+     width:100%
+    }
+
+    nav{
+        width:100%;
+        padding-right: 0;
+    }
+    .navbar-brand img{  
+        height: 80px;
+        width: auto;
+        margin:3% auto;
+        transition:.5s;
+    }
+    
+.search .search-field{
+    position: absolute;
+    width: 50%;
+    right:20%;
+    top:20px;
+    height: 30px;
+    border:solid 2px #f4742a;
+    border-radius: 10px;
+    z-index: 5;
+    padding-left:1% ;
+    display: none;
+}
+
+.search .search-submit{
+    position: absolute;
+    right:20%;
+    top:20px;
+    height: 30px;
+    border:solid 2px #f4742a;
+    border-radius: 10px;
+    z-index: 5;
+    background: #f4742a;
+    color:#fff;
+    display: none;
+    font-family: 'Big Shoulders Display', cursive;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+    .carousel-inner,.slider{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0;
+        padding:0;
+    }
+   
+    .sld2 span{
+        font-size: 50px;
+        top:30%;
+    }
+    .sld2 h1{
+        font-size: 30px;
+        top:23%;
+    }
+
+    .sld3 span{
+        font-size: 80px;
+        top:25%;
+    }
+    .sld3 h1{
+        font-size: 50px;
+        top:25%;
+    }
+
+    .sld4 span{
+        font-size: 80px;
+        top:25%;
+    }
+    .sld4 h1{
+        font-size: 40px;
+        top:25%;
+    }
+
+    .sld5 span{
+        font-size: 50px;
+        top:35%;
+    }
+    .sld5 h1{
+        font-size: 40px;
+        top:38%;
+    }
+
+    .sld6 span{
+        font-size: 50px;
+        top:35%;
+    }
+    .sld6 h1{
+        font-size: 40px;
+        top:38%;
+    }
+
+    .sld7 span,.sld8 span{
+        font-size: 80px;
+        top:25%;
+    }
+    .sld7 h1,.sld8 h1{
+        font-size: 40px;
+        top:23%;
+    }
+    .questions  {
+        min-height: 1300px;
+    }
+    .container-2 h2{
+        width: 100%;
+        text-align: left;
+        font-size: 35px;
+        margin: 10% 10% 5%;
+    }
+   
+
+    .main-links li{
+      display: block;
+    }
+
+    .main-links li a{
+        font-size: 20px;
+    }
+   
+    .sub-links{
+        width: 100%;
+        margin: 5% auto;
+    }
+   
+    .texted-area-js {
+        display: none;
+    }
+    
+    .contacts,.comment{
+        width: 100%;
+        margin: 5% auto;
+    }
+
+    .contacts .nav-item {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .quick-links ul{
+        width: 100%;
+        margin: 5% auto 5% 2%;
+        padding: 0 3% ;
+    }
+   
+
+    .login .written,.login label{
+        font-size: 12px;
+    }
+    .login input{
+        padding: 4%;
+    }
+    .login input,.login .log-btn,.go-for-sign-up,.facebook-log,.facebook-log i,.google-log,.google-log i{
+        width: 80%;
+        font-size: 2vh;
+        margin: 5% auto;
+        line-height: 2vh;
+      }
+
+
+    .google-log i,
+    .facebook-log i{
+        color:rgb(253, 253, 253);
+        line-height: 0%;
+        font-size: 15px;
+        float: left;
+        width: 20px;
+        }
+    .login .checkbox{
+        width:10px
+    }
+
+
+    .signup h2{
+        font-size: 26px;
+    }
+    .signup input,.signup button,.have-account{
+        font-size: 12px;
+        width: 90%;
+        height: 6%;
+        line-height: 6%;
+        padding: 4%;
+    }
+
+    #day{
+        margin-left: 5%;
+    }
+    #day,#month,#year{
+      width: 27%;
+    }
+    #colapse{
+        width:45%;
+        margin: 0;
+    }
+    #mail{
+        position: relative;
+        right:0%;
+    }
+    .signup .birthday{
+        width:20%;
+        height: 6%;
+    }
+
+    .signup input::placeholder,.signup button::placeholder{
+        font-size: 12px;
+    }
+
+     /* start knowledge responsive  */
+
+     .title-image-knowledge .bounceInRight {
+        font-size: 60px;
+        width:95%;
+        top:33%;
+        left:5%;
+        }
+        .define h3{
+            font-size: 40px;
+            margin:8% auto
+        }
+
+        .define-container-know{
+            font-size: 15px;
+            min-height: 420px;
+        }
+
+        .know-line{
+            width: 80%;
+            margin: 150% auto 10%;
+        }
+
+        /* start e-learning responsive  */
+
+
+      .title-image-e-learning .bounceInRight{
+        font-size: 60px;
+        width:90%;
+        top:33%;
+        left:5%;
+    }
+
+    .define-container-e-learn{
+        font-size: 15px;
+        min-height: 350px;
+    }
+    
+    .courses .course{
+        margin: 5% auto;
+        width: 80%;
+        height: 300px;
+    }
+    
+    
+.courses h3{
+    margin: 25% auto 10%;
+}
+
+.learn-line{
+    margin: 270% auto 5%;
+    width:80%;
+}
+
+
+/* start courses responsive  */
+
+    .services-container{
+        width: 90%;
+        margin: 30% auto;
+        padding:10% 0 ;
+        justify-content: center;
+    }
+
+    .services-container h2{
+        width:45%;
+        font-size: 26px;
+        margin: 0 auto 10%;
+    }
+
+    .services-container h2::before,
+    .services-container h2::after{
+        width: 20%;
+
+    }
+
+    .additional-requirements{
+        font-size: 12px;
+    }
+    .required-courses,
+    #attachments,
+    .past-link{
+        padding-left:8%;
+    }
+    
+   .required-courses,
+    #attachments,
+    .past-link::placeholder{
+     font-size: 12px;
+ }
+ 
+ .past-link li input::placeholder{
+     font-size: 10px;
+ }
+
+
+ .services-container h3{
+    font-size: 6vh;
+    width:210px;
+    margin: 10% auto;
+ }
+
+ .services-container h3::before,
+ .services-container h3::after{
+    width: 20%;
+}
+
+ .services-container p{
+     padding:0 5%;
+     font-size: 12px;
+ }
+
+ .services-container .submit{
+     width: 20%;
+     margin-right:40% ;
+     font-size: 12px;
+ }
+
+ .past-link{
+     margin-bottom:10% ;
+ }
+ 
+ /* start about responsive  */
+    
+ .title-image-about .bounceInRight{
+    font-size: 60px;
+    left:20%;
+    top:35%
+}
+
+
+.about-container h1{
+    font-size: 30px;
+    margin: 8% auto 10%;
+}
+.about-container p{
+    font-size: 16px;
+}
+    
+/* start careers responsive  */
+.career{
+    margin: 25% auto;
+    padding-bottom: 15%;
+} 
+
+.career h2{
+    margin: 5% auto 15%;
+    font-size: 25px;
+    width: 55%;
+}
+
+.career h2::before,
+.career h2::after{
+    width:20%
+}
+
+.cv-dash .dash{
+    font-size: 10px;
+    border:none;
+    border-radius:0 ;
+}
+
+.career label{
+    font-size: 14px;
+}
+
+.career span{
+    font-size: 12px;
+}
+
+
+.rate,select{
+    font-size: 14px;
+}
+
+.career .submit{
+    font-size: 14px;
+    padding:1%;
+    width:15%;
+    border-radius: 5%;
+}
+
+
+/* start profile responsive  */
+
+.profile-info{
+    margin: 25% auto;
+    padding: 10% 5%;
+}
+.profile-info h2{
+    font-size: 20px;
+    width:50%;
+    margin: 5% 10% 0;
+}
+
+
+.profile-info h2::after{
+    right: 5%;
+}
+.profile-info h2::before{
+    left:5%
+}
+.profile-pic{
+    margin: 0 auto;
+    padding:20%;
+    /* height: 190px; */
+}
+.profile-pic input{
+    left:20%;
+}
+.profile-pic i {
+    font-size: 10px;
+    padding:20% 18%;
+    border:2px solid #f4742a
+}
+
+
+.profile-pic{
+    margin: 4%;
+}
+
+.profile-info input,.profile-info .birthday {
+    font-size: 12px;
+    padding:3%;
+    width:94%;
+    margin: 4% auto;
+}
+.profile-info .name{
+    width:43%;
+}
+
+ /* start servein responsive  */
+
+ .contries{
+    font-size: 13px;
+  }
+  .cont-container{
+      padding:27% 5% 0
+  }
+
+.nav-tabs li a{
+    font-size: 2vh;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+  /* start underconstruction responsive  */
+  #header .wrap h1{
+    margin: 20% auto 0;
+  }
+
+  #contents{
+      width: 100%;
+  }
+
+  #contents .text p{
+      margin: 5% auto 8%;
+      font-size: 5vh;
+  }
+
+
+/* start service form  */
+
+.res-add-req{
+    padding-left: 10%;
+}
+
+
+        
+}
+
+@media(max-width:375px){
+
+    .sld2 span{
+        font-size: 45px;
+        top:30%;
+    }
+    .sld2 h1{
+        font-size: 28px;
+        top:23%;
+    }
+
+    .sld3 span{
+        font-size: 75px;
+        top:28%;
+    }
+    .sld3 h1{
+        font-size: 39px;
+        top:28%;
+    }
+
+    .sld4 span{
+        font-size: 75px;
+        top:28%;
+    }
+    .sld4 h1{
+        font-size: 39px;
+        top:28%;
+    }
+
+    .sld5 span{
+        font-size: 45px;
+        top:35%;
+    }
+    .sld5 h1{
+        font-size: 39px;
+        top:39%;
+    }
+
+    .sld7 span,.sld8 span{
+        font-size: 45px;
+        top:25%;
+    }
+    .sld7 h1,.sld8 h1{
+        font-size: 33px;
+        top:20%;
+    }
+
+    /* start knowledge responsive  */
+
+    .title-image-knowledge .bounceInRight {
+        font-size: 50px;
+        width:90%;
+        top:33%;
+        left:5%;
+        }
+
+        .know-line{
+            margin: 160% auto 5%;
+        }
+    
+        /* start e-learning responsive  */
+
+        .title-image-e-learning .bounceInRight{
+            font-size: 50px;
+            width:90%;
+            top:33%;
+            left:5%;
+        }
+
+        .learn-line{
+            margin: 300% auto 10%;
+        }
+
+
+
+
+/* start courses responsive  */
+
+            .form-inline .res-search-input{
+                width: 70%;
+                position: relative;
+                left: 10%;
+            }
+
+            .services-container{
+                margin: 40% auto;
+            }
+
+
+            
+ .services-container h3{
+    font-size: 5vh;
+    width:170px;
+    margin: 10% auto;
+ }
+
+ .services-container label{
+     font-size: 3vh;
+ }
+
+ 
+ .services-container h3::before,
+.services-container h3::after{
+    width: 10%;
+}
+    
+    
+ /* start about responsive  */
+    
+
+
+.about-container h1{
+    font-size: 30px;
+    margin: 8% auto 10%;
+}
+.about-container p{
+    font-size: 15px;
+    margin: 5% 2%;
+}
+
+/* start career responsive  */
+
+.career{
+    margin: 30% auto;
+}
+
+
+.career h2{
+    margin: 5% auto 15%;
+    font-size: 20px;
+    width: 55%;
+}
+.career div{
+    margin: 10% auto;
+}
+
+.rate td{
+    font-size: 10px;
+}
+
+.rate tr td input {
+    padding: 7% 4% 
+}
+
+select{
+    font-size: 12px;
+}
+
+/* start profile responsive  */
+
+.profile-info{
+    margin: 30% auto 10%;
+}
+
+.profile-info{
+    padding-bottom: 20%;
+}
+
+.profile-info h2{
+    width:90%
+}
+
+
+  /* start underconstruction responsive  */
+  .wrap{
+    margin: 15% auto 0;
+  }
+
+  #contents{
+      margin: 5% auto 8%;
+  }
+
+  
+        
+  .login{
+      height: 420px;
+  }
+  .login .forgot,.login label{
+      font-size: 1.5vh;
+  }
+
+}
+
+@media (max-width:320px){
+    .res-nav .form-control{
+        width: 75%;
+        position: relative;
+        left: 30%;
+        top:5px;
+        font-size: 15px;
+    }
+    .res-nav .btn{
+        top:5px;
+        padding-bottom:13%
+    }
+
+    .nav-services-links ul li a {
+        width:200px
+    }
+
+    .sld2 span{
+        font-size: 38px;
+        top:30%;
+    }
+
+    .sld3 span{
+        font-size: 65px;
+        top:28%;
+    }
+
+    .sld4 span{
+        font-size: 65px;
+        top:28%;
+    }
+    .sld4 h1{
+        font-size: 35px;
+    }
+    
+
+    .sld5 span{
+        font-size: 35px;
+        top:35%;
+    }
+    .sld5 h1{
+        font-size: 35px;
+        top:39%;
+    }
+    .sld6 span{
+        font-size: 35px;
+        top:35%;
+    }
+    .sld6 h1{
+        font-size: 30px;
+        top:39%;
+    }
+
+    .sld7 h1,.sld8 h1{
+        font-size: 28px;
+        top:20%;
+    }
+
+    .questions .section-header{
+        font-size: 45px;
+        margin: 5%;
+    }
+    .egypt-contacts li ,
+    .saudia-contacts li,
+    .emirates-contacts li {
+    font-size: 12px;
+    text-align: left;
+}
+
+.comment{
+    padding:5%
+}
+
+.quick-links ul {
+    padding:5%;
+}
+
+
+ /* start knowledge responsive  */
+
+    .define h3{
+        font-size: 30px;
+    }
+
+    .define-container-know{
+        font-size: 14px;
+    }
+
+    .know-line{
+        margin-top: 180%;
+    }
+
+
+    .learn-line{
+        margin: 320% auto 10%;
+    }
+
+
+
+
+/* start courses responsive  */
+
+.form-inline .res-search-input{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    height: 25px;
+}
+
+
+.services-container h2{
+    font-size: 19px;
+}
+
+
+  /* start underconstruction responsive  */
+  .wrap{
+    margin: 15% auto 0;
+  }
+
+  #contents{
+      width: 100%;
+      padding:5%;
+      margin: 5% auto 8%;
+  }
+
+  #contents .text p{
+    margin: 5% auto 8%;
+    font-size: 4vh;
+}
+
+  .profile-info{
+    margin: 30% auto;
+    padding: 10% 5%;
+}
+  
+.login{
+    height: 350px;
+}
+
+.login .log-btn,.go-for-sign-up,.facebook-log,.google-log{
+    height:7%;
+    padding: 2%;    
+}
+
+.facebook-log i,.google-log i{
+    font-size: 2vh;
+    margin: 3%;
+}
+
+}
+
+/* end responsive   */
+
+

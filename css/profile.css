@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+ 
+ body{
+    background-color:#272727;
+    min-height: 1000px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+::placeholder{
+    color:#252525;
+    font-weight: 300
+}
+
+.navbar-brand{
+    float: left;
+}
+
+.navbar-brand img{  
+    height: 100px;
+    width: auto;
+    transition:.5s;
+}
+
+/* start nav bar  */
+
+ .navbar{
+    position: fixed;
+    top:0;
+    right:0;
+    width: 100%;
+    height: 90px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    transition: .6s;
+    z-index: 1;
+}
+.navbar-collapse{
+    padding-left: 5%;
+}
+
+
+.bg-light{
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown-menu{
+    background-color: rgb(24, 24, 24);
+}
+
+
+.navbar-nav{
+    position: relative;
+    right:0px;
+    width:100%;
+}
+
+.navbar-toggler {
+    color:#f4742a
+}
+.logo img{
+    margin-left: 10%;
+}
+
+.navbar-nav li{
+    margin: 1% ;
+    padding: 0;
+    list-style: none;
+}
+
+ 
+.navbar-nav li a{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Big Shoulders Display', cursive;
+    float: right;
+}
+
+#logIn,#signUp{
+    width:50%
+}
+
+
+.search {
+    transition: 1s;
+}
+.search .search-field{
+    position: absolute;
+    width: 50%;
+    right:37%;
+    top:30px;
+    height: 35px;
+    border:solid 2px #f4742a;
+    border-radius: 10px;
+    z-index: 5;
+    padding-left:1% ;
+    display: none;
+}
+
+.search-submit{
+    position: absolute;
+    right:37%;
+    top:30px;
+    height: 35px;
+    border:solid 2px #f4742a;
+    border-radius: 10px;
+    z-index: 5;
+    background: #f4742a;
+    color:#fff;
+    display: none;
+    font-family: 'Big Shoulders Display', cursive;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.search a{
+    padding: 1px 2px;
+    transition:1s;
+}
+
+.search a i{
+    font-size: 16px;
+    color:#f4742a; 
+}
+.search:hover {
+    color:#f4742a
+}
+
+nav.black{
+    background: #1d1d1d;
+    z-index: 100;
+}
+
+
+.navbar .logo{
+    float: left;
+}
+
+.navbar .logo img{  
+    height: 70px;
+    transition:.5s;
+}
+
+
+.navbar-nav li a,#logIn,#signUp{
+    display: block;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    transition: .5s;
+    text-transform: capitalize;
+    font-family: 'Big Shoulders Display', cursive;
+}
+/* 
+.navbar-nav li ul{
+     display: block;
+     position: absolute;
+     opacity: 0;
+     transition: .5s;
+     transform: translatey(0px);
+     background: #1d1d1d;
+     z-index: 20;
+ } */
+
+ .navbar-nav li:hover ul{
+    opacity: 1;
+    visibility: visible
+ } 
+
+ 
+#logIn,#signUp{
+    cursor: pointer;
+}
+
+
+.navbar li a #logIn,#signUp{
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 0 10px;
+    width:100%;
+    transition: .5s;
+    font-size: 10px;
+    text-transform: capitalize;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.navbar ul li ul li a:hover{
+    color:#f4742a
+}
+
+
+
+
+.knowledge-list,
+.management-list,
+.mep-list,
+.architecture-list,
+.structure-list{
+    list-style: none;
+    text-align: justify;
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1vh;
+}
+
+
+
+.service-table li ul li a{
+    color:#fff;
+} 
+
+/* end nav bar  */
+
+/* start side bar  */
+
+#side-bar{
+    position: fixed;
+    left: -20%;
+    width:20%;
+    height: 70%;
+    border: 2px solid #f4742a;
+    border-radius:0 2% 2% 0;
+    background-color: #fff;
+    transition: 1s;
+}
+
+.side-button{
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    color:#fff;
+    background-color: black;
+    padding: 2% 5%;
+    position: absolute;
+    right:-22%;
+    top:40%;
+    border: 2px 2px 0 0 solid #f4742a;
+    border-radius:10px 10px 0 0;
+    cursor: pointer;
+    z-index: 50;
+}
+
+#side-bar ul{
+    width: 100%;
+    padding: 0;
+}
+
+#side-bar ul li {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    color:#1d1d1d;
+    font-size: 3vh;
+    padding: 20px ;
+    text-align: center;
+    border-bottom: #f4742a solid 2px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+#side-bar ul li a{
+    width: 100%;
+    color:#1d1d1d;
+}
+
+#side-bar.active{
+    left:0;
+}
+
+.side-button:hover .side-bar{
+    left:0%;
+}
+
+
+/* end side bar  */
+
+
+/* start profile style  */
+
+
+.profile-info{
+    width: 80%;
+    margin: 10% auto 5%;
+    padding: 2% 2% 5%;
+    background: #1d1d1d;
+    border:2px solid #f4742a;
+    border-radius: 10px;
+    transition: .6s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.profile-info ::placeholder{
+    color: #fff;
+}
+
+.profile-info .profile-pic{
+    width: 100%;
+    color:#fff;
+    text-align: center;
+    position: relative;
+}
+
+.profile-info .profile-pic i{
+    color: #f4742a;
+    border: solid 4px #f4742a;
+    margin: 3% auto 10%;
+    font-size: 60px;
+    padding: 5% 6%;
+    border-radius: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.profile-info .profile-pic input{
+    position: absolute;
+    bottom: 0;
+    left:40%;
+    top:70%;
+    margin: 0;
+}
+
+.profile-info  h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:#f4742a;
+    font-size: 7vh;
+    position: relative;
+    width: 100%;
+    margin: 5% auto;
+    text-transform: capitalize;
+}
+
+input{
+    color:#fff;
+}
+.name{
+    width: 45%;
+    padding: 1%;
+    border-radius: 5px;
+    border:#f4742a solid 2px;
+    background: #1d1d1d;
+    text-align: center;
+}
+
+
+.info,.profile-info .birthday{
+    color:#ffffff;
+    width: 45%;
+    padding: 1%;
+    border-radius: 5px;
+    border:#f4742a solid 2px;
+    background: #1d1d1d;
+    text-align: center;
+    margin: 5% auto 2%;
+}
+
+/* label{
+    color: #f4742a;
+    line-height: 30%;
+    margin: 2% 0;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+} */
+/* 
+.profile-info .birthday{
+    width:40%;
+    padding: 1%;
+    height: 2%;
+    border-radius: 5px;
+    border:#f4742a solid 2px;
+    background: #1d1d1d;
+    text-align: center; 
+}    */
+
+.linfo{
+    border-radius: 5px;
+    border:#f4742a solid 2px;
+    background: #1d1d1d;
+    text-align: center; 
+    color:#fff;
+    width: 45%;
+    margin: 3% auto 3%;
+    padding: 1%;
+
+}
+
+
+.comp{
+    width: 95%;
+}
+
+hr{
+   
+    width: 60%;
+    margin: 10% auto 5%;
+    border: solid 2px #f4742a
+}
+
+h5{
+    color:#ffffff;
+    font-size: 30px;
+    transition: .6s;
+}
+
+.profile-info .col-md-12{
+    text-align: center;
+}
+.btn-default{
+    background: #fff;
+    margin: 5% auto 2%;
+    padding: 1% 3%;
+}
+
+
+/* end profile style  */
+
+
+
+
+/* start tail  */
+.tail{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    /* background-color: #1d1d1dfd; */
+    position: relative;
+}
+.tail div{
+    margin: 0;
+    width: 30%;
+    text-align:center; 
+}
+
+.social ul li{
+    display: inline-block;
+    margin:  10% 2% 0;
+}
+
+.social ul li i {
+    font-size: 40px;
+    transition: .6s;
+    color:#fff
+}
+
+.social ul li a i:hover{
+    color:#f4742a;
+    transform: scale(1.3);
+}
+.rights{
+    color:#fff;
+    transition: .6s;
+    line-height: 800%;
+}
+.rights:hover{
+     color:#f4742a;
+}
+
+.signature a{
+    color:#fff;
+}
+.signature a:hover{
+    text-decoration: none;
+}
+.signature i{
+    font-size: 40px;
+    transition: .6s;
+    color:#fff;
+    margin-top:6%; 
+}
+.signature p{
+    color:#fff;
+    margin:  0% 1% ;
+    line-height: 100%;
+    padding: 2% 0 0;
+}
+
+.signature i:hover{
+    color:#f4742a;
+    transform: scale(1.2);
+}
+
+/* end tail  */
+
+
+/* end main services form  */
+
